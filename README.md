@@ -6,16 +6,20 @@
 
 In process
 
+## Contributing
+
+In process
+
 ## Authors
 
 #### Vladimir Pchelyakov
-Email: [v.pchelyakov@yandex.ru](mailto:v.pchelyakov@yandex.ru)
-Telegram: [@BastienBalla](https://t.me/BastienBalla)
+* Email: [v.pchelyakov@yandex.ru](mailto:v.pchelyakov@yandex.ru)
+* Telegram: [@BastienBalla](https://t.me/BastienBalla)
 
 #### Aleksey Pleshkov
-Website: [alekseypleshkov.ru](https://alekseypleshkov.ru)
-Email: [im@alekseypleshkov.ru](mailto:im@alekseypleshkov.ru)
-Telegram: [@AlekseyPleshkov](https://t.me/AlekseyPleshkov)
+* Website: [alekseypleshkov.ru](https://alekseypleshkov.ru)
+* Email: [im@alekseypleshkov.ru](mailto:im@alekseypleshkov.ru)
+* Telegram: [@AlekseyPleshkov](https://t.me/AlekseyPleshkov)
 
 ## License
 
