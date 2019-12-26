@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AAD5BCB23B5373E00021FA6 /* Date+NextDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD5BCA23B5373E00021FA6 /* Date+NextDay.swift */; };
 		9AF78A6523B28F71003746D8 /* HoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF78A5B23B28F71003746D8 /* HoneyKit.framework */; };
 		9AF78A6A23B28F71003746D8 /* HoneyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF78A6923B28F71003746D8 /* HoneyKitTests.swift */; };
 		9AF78A6C23B28F71003746D8 /* HoneyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF78A5E23B28F71003746D8 /* HoneyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AAD5BCA23B5373E00021FA6 /* Date+NextDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+NextDay.swift"; sourceTree = "<group>"; };
 		9AF78A5B23B28F71003746D8 /* HoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF78A5E23B28F71003746D8 /* HoneyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyKit.h; sourceTree = "<group>"; };
 		9AF78A5F23B28F71003746D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9AAD5BC823B5370900021FA6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				9AAD5BC923B5371200021FA6 /* Date */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9AAD5BC923B5371200021FA6 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				9AAD5BCA23B5373E00021FA6 /* Date+NextDay.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		9AF78A5123B28F71003746D8 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +89,7 @@
 		9AF78A5D23B28F71003746D8 /* HoneyKit */ = {
 			isa = PBXGroup;
 			children = (
+				9AAD5BC823B5370900021FA6 /* Foundation */,
 				9AF78A5E23B28F71003746D8 /* HoneyKit.h */,
 				9AF78A5F23B28F71003746D8 /* Info.plist */,
 			);
@@ -148,6 +167,7 @@
 				TargetAttributes = {
 					9AF78A5A23B28F71003746D8 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					9AF78A6323B28F71003746D8 = {
 						CreatedOnToolsVersion = 11.3;
@@ -195,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AAD5BCB23B5373E00021FA6 /* Date+NextDay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +361,7 @@
 		9AF78A7023B28F71003746D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4FTXEEJX24;
@@ -358,6 +380,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +389,7 @@
 		9AF78A7123B28F71003746D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4FTXEEJX24;
@@ -392,6 +416,7 @@
 		9AF78A7323B28F71003746D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FTXEEJX24;
 				INFOPLIST_FILE = HoneyKitTests/Info.plist;
@@ -410,6 +435,7 @@
 		9AF78A7423B28F71003746D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4FTXEEJX24;
 				INFOPLIST_FILE = HoneyKitTests/Info.plist;
