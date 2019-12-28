@@ -11,6 +11,10 @@ import XCTest
 
 final class UIViewController_ChildTests: XCTestCase {
   
+  // MARK: - Custom objects for tests
+  
+  final class NextViewController: UIViewController { }
+  
   // MARK: - Private Properties
   
   private var rootViewController: UIViewController!
@@ -44,6 +48,7 @@ final class UIViewController_ChildTests: XCTestCase {
     
     // Then
     XCTAssertNotNil(rootViewController.children.first, "Root view controller has no child")
+    XCTAssertFalse(rootViewController.view.subviews.isEmpty, "Root view controller's view has no subview")
   }
   
   // MARK: - Remove child
@@ -61,18 +66,18 @@ final class UIViewController_ChildTests: XCTestCase {
     childViewController.didMove(toParent: rootViewController)
 
     XCTAssertNotNil(rootViewController.children.first, "Root view controller has no child")
+    XCTAssertFalse(rootViewController.view.subviews.isEmpty, "Root view controller's view has no subview")
     
     // When
     rootViewController.removeChild(viewController: childViewController)
     
     // Then
     XCTAssertNil(rootViewController.children.first, "Root view controller has child")
+    XCTAssertTrue(rootViewController.view.subviews.isEmpty, "Root view controller's view has subview")
   }
   
   // MARK: - Switch child
   
-  final class NextViewController: UIViewController { }
-
   /// Root view controller has child.
   /// Change child to the NextViewController
   /// Root view controller's child should be NextViewController
@@ -84,6 +89,7 @@ final class UIViewController_ChildTests: XCTestCase {
     firstViewController.didMove(toParent: rootViewController)
 
     XCTAssertNotNil(rootViewController.children.first, "Root view controller has no child")
+    XCTAssertFalse(rootViewController.view.subviews.isEmpty, "Root view controller's view has no subview")
     
     // When
     let nextViewController = NextViewController()
