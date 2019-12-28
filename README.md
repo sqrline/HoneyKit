@@ -13,6 +13,8 @@ In process
 <ul>
 <li><a href="https://github.com/sqrline/HoneyKit/tree/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift">
 <code>[Date] DayStep. Returns date after adding step to exists date based on direction.</code></a></li>
+<li><a href="https://github.com/sqrline/HoneyKit/tree/master/HoneyKit/UIKit/UIViewController/UIViewController%2BChild.swift">
+<code>[UIViewController] Child. Handles (adds, removes and switches) child of the current view controller.</code></a></li>
 </ul>
 </details>
 

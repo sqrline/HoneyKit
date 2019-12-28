@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */; };
 		9AF78A6523B28F71003746D8 /* HoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF78A5B23B28F71003746D8 /* HoneyKit.framework */; };
 		9AF78A6A23B28F71003746D8 /* HoneyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF78A6923B28F71003746D8 /* HoneyKitTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AF78A5B23B28F71003746D8 /* HoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF78A5E23B28F71003746D8 /* HoneyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyKit.h; sourceTree = "<group>"; };
@@ -52,6 +54,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5C363223B7880100F9EDEE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C363323B7880B00F9EDEE /* UIViewController */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		0B5C363323B7880B00F9EDEE /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		9AAD5BC823B5370900021FA6 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +107,7 @@
 		9AF78A5D23B28F71003746D8 /* HoneyKit */ = {
 			isa = PBXGroup;
 			children = (
+				0B5C363223B7880100F9EDEE /* UIKit */,
 				9AAD5BC823B5370900021FA6 /* Foundation */,
 				9AF78A5E23B28F71003746D8 /* HoneyKit.h */,
 				9AF78A5F23B28F71003746D8 /* Info.plist */,
@@ -216,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
+				0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
