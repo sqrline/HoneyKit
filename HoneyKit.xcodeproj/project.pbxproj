@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AAD5BCB23B5373E00021FA6 /* Date+NextDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAD5BCA23B5373E00021FA6 /* Date+NextDay.swift */; };
+		9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */; };
 		9AF78A6523B28F71003746D8 /* HoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF78A5B23B28F71003746D8 /* HoneyKit.framework */; };
 		9AF78A6A23B28F71003746D8 /* HoneyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF78A6923B28F71003746D8 /* HoneyKitTests.swift */; };
 		9AF78A6C23B28F71003746D8 /* HoneyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF78A5E23B28F71003746D8 /* HoneyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9AAD5BCA23B5373E00021FA6 /* Date+NextDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+NextDay.swift"; sourceTree = "<group>"; };
+		9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AF78A5B23B28F71003746D8 /* HoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF78A5E23B28F71003746D8 /* HoneyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyKit.h; sourceTree = "<group>"; };
 		9AF78A5F23B28F71003746D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		9AAD5BC923B5371200021FA6 /* Date */ = {
 			isa = PBXGroup;
 			children = (
-				9AAD5BCA23B5373E00021FA6 /* Date+NextDay.swift */,
+				9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AAD5BCB23B5373E00021FA6 /* Date+NextDay.swift in Sources */,
+				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
