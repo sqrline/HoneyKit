@@ -1,4 +1,4 @@
-# HoneyKit
+# 🍯 HoneyKit
 
 `HoneyKit` is extensions for solve common tasks in iOS development
 
@@ -6,9 +6,48 @@
 
 In process
 
+## List of extensions
+
+<details>
+<summary>Foundation</summary>
+<ul>
+<li><a href="https://github.com/sqrline/HoneyKit/tree/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift">
+<code>[Date] DayStep. Returns date after adding step to exists date based on direction.</code></a></li>
+</ul>
+</details>
+
 ## Contributing
 
-In process
+* Make sure no similar extension already exist in HoneyKit.
+* A pull request should only add one extension at a time.
+* Do not use an existing extension inside another HoneyKit extension.
+* Code should follow [Swift Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
+* Always declare extensions as public.
+* All extensions should be tested.
+* The file name should be based on the type that extends + added functionality. (Example: UIViewController+ShowAlert.swift)
+* All extensions should be well documented.
+```
+// MARK: - Properties
+
+/// <Description>
+///
+/// # Example
+/// ```
+/// <Example code>
+/// ```
+
+// MARK: - Methods
+
+/// <Description>
+///
+/// # Example
+/// ```
+/// <Example code>
+/// ```
+/// - Parameters:
+///   - <Paramer>: <Description>
+/// - Returns: <Description>
+```
 
 ## Authors
 
