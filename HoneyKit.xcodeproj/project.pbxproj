@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */; };
+		9A85D7B623B898F70027C678 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D7B523B898F70027C678 /* Date+DayStep.swift */; };
 		9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */; };
 		9AF78A6523B28F71003746D8 /* HoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF78A5B23B28F71003746D8 /* HoneyKit.framework */; };
-		9AF78A6A23B28F71003746D8 /* HoneyKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF78A6923B28F71003746D8 /* HoneyKitTests.swift */; };
 		9AF78A6C23B28F71003746D8 /* HoneyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF78A5E23B28F71003746D8 /* HoneyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -28,12 +28,12 @@
 /* Begin PBXFileReference section */
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildTests.swift"; sourceTree = "<group>"; };
+		9A85D7B523B898F70027C678 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AF78A5B23B28F71003746D8 /* HoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF78A5E23B28F71003746D8 /* HoneyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyKit.h; sourceTree = "<group>"; };
 		9AF78A5F23B28F71003746D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AF78A6423B28F71003746D8 /* HoneyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AF78A6923B28F71003746D8 /* HoneyKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyKitTests.swift; sourceTree = "<group>"; };
 		9AF78A6B23B28F71003746D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +88,22 @@
 			path = UIViewController;
 			sourceTree = "<group>";
 		};
+		9A85D7B323B898E00027C678 /* Foudation */ = {
+			isa = PBXGroup;
+			children = (
+				9A85D7B423B898E70027C678 /* Date */,
+			);
+			path = Foudation;
+			sourceTree = "<group>";
+		};
+		9A85D7B423B898E70027C678 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				9A85D7B523B898F70027C678 /* Date+DayStep.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		9AAD5BC823B5370900021FA6 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,8 +152,8 @@
 		9AF78A6823B28F71003746D8 /* HoneyKitTests */ = {
 			isa = PBXGroup;
 			children = (
+				9A85D7B323B898E00027C678 /* Foudation */,
 				0B5C363623B7A26700F9EDEE /* UIKit */,
-				9AF78A6923B28F71003746D8 /* HoneyKitTests.swift */,
 				9AF78A6B23B28F71003746D8 /* Info.plist */,
 			);
 			path = HoneyKitTests;
@@ -262,7 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF78A6A23B28F71003746D8 /* HoneyKitTests.swift in Sources */,
+				9A85D7B623B898F70027C678 /* Date+DayStep.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
