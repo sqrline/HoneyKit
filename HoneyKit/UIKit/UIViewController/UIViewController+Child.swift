@@ -33,7 +33,7 @@ public extension UIViewController {
         viewController.view.leftAnchor.constraint(equalTo: containerView.leftAnchor),
         viewController.view.rightAnchor.constraint(equalTo: containerView.rightAnchor),
         viewController.view.topAnchor.constraint(equalTo: containerView.topAnchor),
-        viewController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        viewController.view.bottomAnchor.constraint(equalTo: containerView.bottomAnchor)
       ])
     }
     
