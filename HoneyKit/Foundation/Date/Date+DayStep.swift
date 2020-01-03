@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
   
   // MARK: - Enums
   
@@ -16,12 +16,6 @@ extension Date {
   enum StepDirection {
     case forward
     case backward
-  }
-  
-  // MARK: - Private Properties
-  
-  private var calendar: Calendar {
-    return Calendar.current
   }
   
   // MARK: - Public Methods
@@ -40,6 +34,7 @@ extension Date {
   ///   - count: Numbers of days for take a step
   /// - Returns: Returns date after step
   func step(_ direction: StepDirection, count: Int = 1) -> Date {
+    let calendar = Calendar.current
     let stepValue = direction == .forward ? count : -count
     
     return calendar.date(byAdding: .day, value: stepValue, to: self) ?? self

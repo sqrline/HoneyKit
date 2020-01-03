@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// Handles (adds, removes and switches) child of the current view controller.
 public extension UIViewController {
   
   /// Adds a view controller as a child of the current view controller.

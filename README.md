@@ -6,19 +6,23 @@
 
 In process
 
-## List of extensions
+## ⚡️ List of extensions
 
-<details>
-<summary>Foundation</summary>
-<ul>
-<li><a href="https://github.com/sqrline/HoneyKit/tree/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift">
-<code>[Date] DayStep. Returns date after adding step to exists date based on direction.</code></a></li>
-<li><a href="https://github.com/sqrline/HoneyKit/tree/master/HoneyKit/UIKit/UIViewController/UIViewController%2BChild.swift">
-<code>[UIViewController] Child. Handles (adds, removes and switches) child of the current view controller.</code></a></li>
-</ul>
-</details>
+#### Foundation
 
-## Contributing
+##### Date 
+* [DayStep](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift). Returns date after adding step to exists date based on direction.
+* [DaysMonth](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysMonth.swift). Returns start/end day of month.
+
+#### UIKit
+
+##### UIView
+* [ActivityIndicator](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BActivityIndicator.swift). Adds/hides container with activity indicator in view.
+
+##### UIViewController
+* [Child](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIViewController/UIViewController%2BChild.swift). Handles (adds, removes and switches) child of the current view controller.
+
+## 🖥 Contributing
 
 * Make sure no similar extension already exist in HoneyKit.
 * A pull request should only add one extension at a time.
@@ -51,7 +55,7 @@ In process
 /// - Returns: <Description>
 ```
 
-## Authors
+## 🖖 Authors
 
 #### Vladimir Pchelyakov
 * Email: [v.pchelyakov@yandex.ru](mailto:v.pchelyakov@yandex.ru)
@@ -62,6 +66,7 @@ In process
 * Email: [im@alekseypleshkov.ru](mailto:im@alekseypleshkov.ru)
 * Telegram: [@AlekseyPleshkov](https://t.me/AlekseyPleshkov)
 
-## License
+## 📜 License
 
 `HoneyKit` is released under the MIT license. In short, it's royalty-free but you must keep the copyright notice in your code or software distribution.
+
