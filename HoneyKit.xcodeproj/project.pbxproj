@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */; };
+		9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicator.swift */; };
 		9A85D7B623B898F70027C678 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D7B523B898F70027C678 /* Date+DayStep.swift */; };
 		9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231323B9D9E800EA681C /* Date+DaysMonth.swift */; };
 		9AA2231623B9DAC100EA681C /* Date+Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231523B9DAC100EA681C /* Date+Month.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildTests.swift"; sourceTree = "<group>"; };
+		9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
 		9A85D7B523B898F70027C678 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AA2231323B9D9E800EA681C /* Date+DaysMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysMonth.swift"; sourceTree = "<group>"; };
 		9AA2231523B9DAC100EA681C /* Date+Month.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Month.swift"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		0B5C363623B7A26700F9EDEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				9A6C61AC23C0DF61000D6437 /* UIView */,
 				0B5C363723B7A27200F9EDEE /* UIViewController */,
 			);
 			path = UIKit;
@@ -93,6 +96,14 @@
 				0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		9A6C61AC23C0DF61000D6437 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicator.swift */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		9A85D7B323B898E00027C678 /* Foudation */ = {
@@ -300,6 +311,7 @@
 				9A85D7B623B898F70027C678 /* Date+DayStep.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
 				9AA2231623B9DAC100EA681C /* Date+Month.swift in Sources */,
+				9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

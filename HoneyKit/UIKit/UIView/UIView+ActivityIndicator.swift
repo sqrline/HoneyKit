@@ -49,13 +49,23 @@ public extension UIView {
       ])
     }
     
-    func show(withDuration duration: TimeInterval) {
+    func show(withDuration duration: TimeInterval?) {
+      guard let duration = duration else {
+        alpha = 1
+        return
+      }
+      
       UIView.animate(withDuration: duration) { [weak self] in
         self?.alpha = 1
       }
     }
     
-    func hide(withDuration duration: TimeInterval) {
+    func hide(withDuration duration: TimeInterval?) {
+      guard let duration = duration else {
+        removeFromSuperview()
+        return
+      }
+      
       let animations: () -> Void = { [weak self] in
         self?.alpha = 0
       }
@@ -88,7 +98,7 @@ public extension UIView {
     backgroundColor: UIColor? = nil,
     color: UIColor = .black,
     style: UIActivityIndicatorView.Style? = nil,
-    withDuration duration: TimeInterval = 0.3) -> UIView {
+    withDuration duration: TimeInterval? = nil) -> UIView {
     
     let containerView = ActivityIndicatorContainerView()
     
@@ -108,7 +118,7 @@ public extension UIView {
   /// containerView.hideActivityIndicator(withDuration: 0.5)
   /// ```
   /// - Parameter duration: Hide animation duration
-  func hideActivityIndicator(withDuration duration: TimeInterval = 0.3) {
+  func hideActivityIndicator(withDuration duration: TimeInterval? = nil) {
     guard
       let firstSubview = subviews.first(where: { $0 is ActivityIndicatorContainerView }),
       let activityIndicatorContainerView = firstSubview as? ActivityIndicatorContainerView
