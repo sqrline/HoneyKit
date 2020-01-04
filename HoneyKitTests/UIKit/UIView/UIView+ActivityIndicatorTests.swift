@@ -9,7 +9,7 @@
 @testable import HoneyKit
 import XCTest
 
-final class UIView_ActivityIndicator: XCTestCase {
+final class UIView_ActivityIndicatorTests: XCTestCase {
   
   // MARK: - Private Properties
   

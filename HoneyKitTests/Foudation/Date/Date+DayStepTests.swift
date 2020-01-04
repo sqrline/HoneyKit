@@ -9,7 +9,7 @@
 @testable import HoneyKit
 import XCTest
 
-final class Date_DayStep: XCTestCase {
+final class Date_DayStepTests: XCTestCase {
   
   // MARK: - Private Properties
 
