@@ -2,7 +2,7 @@
 
 `HoneyKit` is extensions for solve common tasks in iOS development
 
-## Install
+## 🛠 Install
 
 In process
 
@@ -18,6 +18,7 @@ In process
 
 ##### UIView
 * [ActivityIndicator](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BActivityIndicator.swift). Adds/hides container with activity indicator in view.
+* [HideKeyboard](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BHideKeyboard.swift). Hides keyboard if tap on current view's area.
 
 ##### UIViewController
 * [Child](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIViewController/UIViewController%2BChild.swift). Handles (adds, removes and switches) child of the current view controller.
@@ -57,16 +58,16 @@ In process
 
 ## 🖖 Authors
 
-#### Vladimir Pchelyakov
+#### Vladimir Pchelyakov 🇷🇺
 * Email: [v.pchelyakov@yandex.ru](mailto:v.pchelyakov@yandex.ru)
 * Telegram: [@BastienBalla](https://t.me/BastienBalla)
 
-#### Aleksey Pleshkov
+#### Aleksey Pleshkov 🇷🇺
 * Website: [alekseypleshkov.ru](https://alekseypleshkov.ru)
 * Email: [im@alekseypleshkov.ru](mailto:im@alekseypleshkov.ru)
 * Telegram: [@AlekseyPleshkov](https://t.me/AlekseyPleshkov)
 
-## 📜 License
+## ©️ License
 
 `HoneyKit` is released under the MIT license. In short, it's royalty-free but you must keep the copyright notice in your code or software distribution.
 
