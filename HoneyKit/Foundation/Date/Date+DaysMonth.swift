@@ -24,7 +24,7 @@ public extension Date  {
     let startOfDay = calendar.startOfDay(for: self)
     let components = calendar.dateComponents([.year, .month], from: startOfDay)
     
-    return calendar.date(from: components) ?? Date()
+    return calendar.date(from: components) ?? self
   }
   
   /// Returns end of current month date
@@ -37,9 +37,9 @@ public extension Date  {
     let calendar = Calendar.current
     let startOfDay = calendar.startOfDay(for: self)
     let startOfMonthComponets = calendar.dateComponents([.year, .month], from: startOfDay)
-    let startOfMonth = calendar.date(from: startOfMonthComponets) ?? Date()
+    let startOfMonth = calendar.date(from: startOfMonthComponets) ?? self
     let components = DateComponents(month: 1, day: -1)
     
-    return calendar.date(byAdding: components, to: startOfMonth) ?? Date()
+    return calendar.date(byAdding: components, to: startOfMonth) ?? self
   }
 }

@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Returns date after adding step to exists date based on direction
 public extension Date {
   
   // MARK: - Enums
