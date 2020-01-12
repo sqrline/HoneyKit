@@ -9,7 +9,7 @@
 import UIKit
 
 /// Conveniece init color from hex string.
-extension UIColor {
+public extension UIColor {
   
   // MARK: - Initializers
   
