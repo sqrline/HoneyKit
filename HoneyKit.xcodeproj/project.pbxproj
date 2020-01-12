@@ -12,10 +12,12 @@
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */; };
 		0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */; };
+		9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */; };
 		9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */; };
 		9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */; };
+		9A87152B23C3A2780056CB2E /* Date+DaysWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A87152A23C3A2780056CB2E /* Date+DaysWeek.swift */; };
 		9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231323B9D9E800EA681C /* Date+DaysMonth.swift */; };
-		9AA2231623B9DAC100EA681C /* Date+MonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231523B9DAC100EA681C /* Date+MonthTests.swift */; };
+		9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */; };
 		9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */; };
 		9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */; };
 		9AF78A6523B28F71003746D8 /* HoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF78A5B23B28F71003746D8 /* HoneyKit.framework */; };
@@ -38,10 +40,12 @@
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildTests.swift"; sourceTree = "<group>"; };
 		0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+HideKeyboard.swift"; sourceTree = "<group>"; };
+		9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysWeekTests.swift"; sourceTree = "<group>"; };
 		9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicatorTests.swift"; sourceTree = "<group>"; };
 		9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStepTests.swift"; sourceTree = "<group>"; };
+		9A87152A23C3A2780056CB2E /* Date+DaysWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysWeek.swift"; sourceTree = "<group>"; };
 		9AA2231323B9D9E800EA681C /* Date+DaysMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysMonth.swift"; sourceTree = "<group>"; };
-		9AA2231523B9DAC100EA681C /* Date+MonthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+MonthTests.swift"; sourceTree = "<group>"; };
+		9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysMonthTests.swift"; sourceTree = "<group>"; };
 		9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
 		9AF78A5B23B28F71003746D8 /* HoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,7 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */,
-				9AA2231523B9DAC100EA681C /* Date+MonthTests.swift */,
+				9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */,
+				9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -158,8 +163,9 @@
 		9AAD5BC923B5371200021FA6 /* Date */ = {
 			isa = PBXGroup;
 			children = (
-				9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */,
 				9AA2231323B9D9E800EA681C /* Date+DaysMonth.swift */,
+				9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */,
+				9A87152A23C3A2780056CB2E /* Date+DaysWeek.swift */,
 			);
 			path = Date;
 			sourceTree = "<group>";
@@ -327,6 +333,7 @@
 				9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */,
 				0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
+				9A87152B23C3A2780056CB2E /* Date+DaysWeek.swift in Sources */,
 				0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,8 +345,9 @@
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
 				0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
-				9AA2231623B9DAC100EA681C /* Date+MonthTests.swift in Sources */,
+				9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */,
 				9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */,
+				9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
