@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */; };
+		0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */; };
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */; };
 		0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */; };
@@ -31,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexTests.swift"; sourceTree = "<group>"; };
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildTests.swift"; sourceTree = "<group>"; };
 		0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+HideKeyboard.swift"; sourceTree = "<group>"; };
@@ -66,9 +70,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3E797623CBB7720090EFD6 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		0B3E797923CBB8400090EFD6 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
 		0B5C363223B7880100F9EDEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				0B3E797623CBB7720090EFD6 /* UIColor */,
 				9AC1951823BF6B4D009A636F /* UIView */,
 				0B5C363323B7880B00F9EDEE /* UIViewController */,
 			);
@@ -86,6 +107,7 @@
 		0B5C363623B7A26700F9EDEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				0B3E797923CBB8400090EFD6 /* UIColor */,
 				9A6C61AC23C0DF61000D6437 /* UIView */,
 				0B5C363723B7A27200F9EDEE /* UIViewController */,
 			);
@@ -303,6 +325,7 @@
 				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
 				0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */,
 				9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */,
+				0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */,
 			);
@@ -313,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
+				0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
 				9AA2231623B9DAC100EA681C /* Date+MonthTests.swift in Sources */,
 				9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */,
