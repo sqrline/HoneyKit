@@ -17,6 +17,9 @@ In process
 
 #### UIKit
 
+##### UIButton
+* [SetTitle](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BSetTitle.swift). Sets title with animation.
+
 ##### UIColor
 * [Hex](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIColor/UIColor%2BHex.swift). Conveniece init color from hex string.
 
