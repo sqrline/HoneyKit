@@ -22,6 +22,14 @@
 		9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */; };
 		9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */; };
 		9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */; };
+		9AED007E23D42C61006E7C9A /* UITableView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */; };
+		9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */; };
+		9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */; };
+		9AED008523D42D71006E7C9A /* UICollectionView+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED008423D42D71006E7C9A /* UICollectionView+ReusableCell.swift */; };
+		9AED008823D43C88006E7C9A /* UITableView+RegisterCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED008723D43C88006E7C9A /* UITableView+RegisterCellTests.swift */; };
+		9AED059B23D4673D006AE545 /* UITableView+ReusableCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED059A23D4673D006AE545 /* UITableView+ReusableCellTests.swift */; };
+		9AED059E23D46A8B006AE545 /* UICollectionView+RegisterCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED059D23D46A8B006AE545 /* UICollectionView+RegisterCellTests.swift */; };
+		9AED05A023D46C34006AE545 /* UICollectionView+ReusableCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED059F23D46C34006AE545 /* UICollectionView+ReusableCellTests.swift */; };
 		9AF78A6523B28F71003746D8 /* HoneyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF78A5B23B28F71003746D8 /* HoneyKit.framework */; };
 		9AF78A6C23B28F71003746D8 /* HoneyKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF78A5E23B28F71003746D8 /* HoneyKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -52,6 +60,14 @@
 		9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysMonthTests.swift"; sourceTree = "<group>"; };
 		9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCell.swift"; sourceTree = "<group>"; };
+		9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableCell.swift"; sourceTree = "<group>"; };
+		9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCell.swift"; sourceTree = "<group>"; };
+		9AED008423D42D71006E7C9A /* UICollectionView+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ReusableCell.swift"; sourceTree = "<group>"; };
+		9AED008723D43C88006E7C9A /* UITableView+RegisterCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCellTests.swift"; sourceTree = "<group>"; };
+		9AED059A23D4673D006AE545 /* UITableView+ReusableCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableCellTests.swift"; sourceTree = "<group>"; };
+		9AED059D23D46A8B006AE545 /* UICollectionView+RegisterCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCellTests.swift"; sourceTree = "<group>"; };
+		9AED059F23D46C34006AE545 /* UICollectionView+ReusableCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ReusableCellTests.swift"; sourceTree = "<group>"; };
 		9AF78A5B23B28F71003746D8 /* HoneyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HoneyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF78A5E23B28F71003746D8 /* HoneyKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyKit.h; sourceTree = "<group>"; };
 		9AF78A5F23B28F71003746D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,7 +114,9 @@
 			isa = PBXGroup;
 			children = (
 				0B62623023D3006F00F9A668 /* UIButton */,
+				9AED008123D42D24006E7C9A /* UICollectionView */,
 				0B3E797623CBB7720090EFD6 /* UIColor */,
+				9AED007C23D42C27006E7C9A /* UITableView */,
 				9AC1951823BF6B4D009A636F /* UIView */,
 				0B5C363323B7880B00F9EDEE /* UIViewController */,
 			);
@@ -117,7 +135,9 @@
 			isa = PBXGroup;
 			children = (
 				0B62623123D3009200F9A668 /* UIButton */,
+				9AED059C23D46A72006AE545 /* UICollectionView */,
 				0B3E797923CBB8400090EFD6 /* UIColor */,
+				9AED008623D43C69006E7C9A /* UITableView */,
 				9A6C61AC23C0DF61000D6437 /* UIView */,
 				0B5C363723B7A27200F9EDEE /* UIViewController */,
 			);
@@ -199,6 +219,42 @@
 				0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		9AED007C23D42C27006E7C9A /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */,
+				9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		9AED008123D42D24006E7C9A /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */,
+				9AED008423D42D71006E7C9A /* UICollectionView+ReusableCell.swift */,
+			);
+			path = UICollectionView;
+			sourceTree = "<group>";
+		};
+		9AED008623D43C69006E7C9A /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				9AED008723D43C88006E7C9A /* UITableView+RegisterCellTests.swift */,
+				9AED059A23D4673D006AE545 /* UITableView+ReusableCellTests.swift */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		9AED059C23D46A72006AE545 /* UICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9AED059D23D46A8B006AE545 /* UICollectionView+RegisterCellTests.swift */,
+				9AED059F23D46C34006AE545 /* UICollectionView+ReusableCellTests.swift */,
+			);
+			path = UICollectionView;
 			sourceTree = "<group>";
 		};
 		9AF78A5123B28F71003746D8 = {
@@ -350,12 +406,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AED007E23D42C61006E7C9A /* UITableView+RegisterCell.swift in Sources */,
 				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
 				0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */,
 				9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */,
+				9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */,
+				9AED008523D42D71006E7C9A /* UICollectionView+ReusableCell.swift in Sources */,
 				0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */,
+				9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */,
 				9A87152B23C3A2780056CB2E /* Date+DaysWeek.swift in Sources */,
 				0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */,
 			);
@@ -367,11 +427,15 @@
 			files = (
 				0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */,
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
+				9AED008823D43C88006E7C9A /* UITableView+RegisterCellTests.swift in Sources */,
 				0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
 				9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */,
 				9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */,
+				9AED059E23D46A8B006AE545 /* UICollectionView+RegisterCellTests.swift in Sources */,
+				9AED05A023D46C34006AE545 /* UICollectionView+ReusableCellTests.swift in Sources */,
 				9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */,
+				9AED059B23D4673D006AE545 /* UITableView+ReusableCellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
