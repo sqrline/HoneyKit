@@ -30,6 +30,14 @@ In process
 ##### UIViewController
 * [Child](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIViewController/UIViewController%2BChild.swift). Handles (adds, removes and switches) child of the current view controller.
 
+##### UITableView
+* [RegisterCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UITableView/UITableView%2BRegisterCell.swift). Registers a cell by class or nib for use in creating new table cells.
+* [ReusableCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UITableView/UITableView%2BReusableCell.swift). Returns a reusable table view cell object by class.
+
+##### UICollectionView
+* [RegisterCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UICollectionView/UICollectionView%2BRegisterCell.swift). Registers a cell by class or nib for use in creating new collection cells.
+* [ReusableCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UICollectionView/UICollectionView%2BReusableCell.swift). Returns a reusable collection view cell object by class with index path.
+
 ## 🖥 Contributing
 
 * Make sure no similar extension already exist in HoneyKit.
