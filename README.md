@@ -20,12 +20,20 @@ In process
 ##### UIButton
 * [SetTitle](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BSetTitle.swift). Sets title with animation.
 
+##### UICollectionView
+* [RegisterCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UICollectionView/UICollectionView%2BRegisterCell.swift). Registers a cell by class or nib for use in creating new collection cells.
+* [ReusableCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UICollectionView/UICollectionView%2BReusableCell.swift). Returns a reusable collection view cell object by class with index path.
+
 ##### UIColor
 * [Hex](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIColor/UIColor%2BHex.swift). Conveniece init color from hex string.
 
 ##### UIView
 * [ActivityIndicator](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BActivityIndicator.swift). Adds/hides container with activity indicator in view.
 * [HideKeyboard](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BHideKeyboard.swift). Hides keyboard if tap on current view's area.
+
+##### UITableView
+* [RegisterCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UITableView/UITableView%2BRegisterCell.swift). Registers a cell by class or nib for use in creating new table cells.
+* [ReusableCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UITableView/UITableView%2BReusableCell.swift). Returns a reusable table view cell object by class.
 
 ##### UIViewController
 * [Child](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIViewController/UIViewController%2BChild.swift). Handles (adds, removes and switches) child of the current view controller.
