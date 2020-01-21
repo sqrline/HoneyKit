@@ -14,6 +14,10 @@
 		0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */; };
 		0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */; };
 		0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */; };
+		9A0B338323D633CD005C667A /* UIView+AddSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338223D633CD005C667A /* UIView+AddSubview.swift */; };
+		9A0B338523D6361F005C667A /* UIView+AddSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */; };
+		9A0B338723D63C84005C667A /* UIView+RemoveSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */; };
+		9A0B338923D63D1B005C667A /* UIView+RemoveSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */; };
 		9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */; };
 		9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */; };
 		9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */; };
@@ -52,6 +56,10 @@
 		0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+SetTitle.swift"; sourceTree = "<group>"; };
 		0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+SetTitleTests.swift"; sourceTree = "<group>"; };
 		0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+HideKeyboard.swift"; sourceTree = "<group>"; };
+		9A0B338223D633CD005C667A /* UIView+AddSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubview.swift"; sourceTree = "<group>"; };
+		9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviewTests.swift"; sourceTree = "<group>"; };
+		9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubview.swift"; sourceTree = "<group>"; };
+		9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubviewTests.swift"; sourceTree = "<group>"; };
 		9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysWeekTests.swift"; sourceTree = "<group>"; };
 		9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicatorTests.swift"; sourceTree = "<group>"; };
 		9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStepTests.swift"; sourceTree = "<group>"; };
@@ -172,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */,
+				9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */,
+				9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -216,7 +226,9 @@
 			isa = PBXGroup;
 			children = (
 				9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */,
+				9A0B338223D633CD005C667A /* UIView+AddSubview.swift */,
 				0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */,
+				9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -410,6 +422,8 @@
 				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
 				0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */,
 				9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */,
+				9A0B338723D63C84005C667A /* UIView+RemoveSubview.swift in Sources */,
+				9A0B338323D633CD005C667A /* UIView+AddSubview.swift in Sources */,
 				9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */,
 				9AED008523D42D71006E7C9A /* UICollectionView+ReusableCell.swift in Sources */,
 				0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */,
@@ -425,10 +439,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0B338923D63D1B005C667A /* UIView+RemoveSubviewTests.swift in Sources */,
 				0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */,
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
 				9AED008823D43C88006E7C9A /* UITableView+RegisterCellTests.swift in Sources */,
 				0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */,
+				9A0B338523D6361F005C667A /* UIView+AddSubviewTests.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
 				9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */,
 				9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */,
