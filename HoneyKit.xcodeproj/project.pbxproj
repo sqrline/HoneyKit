@@ -26,6 +26,8 @@
 		9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */; };
 		9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */; };
 		9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */; };
+		9AC275DF23D82935003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC275DE23D82935003D70F5 /* UIAlertController+InitWithButtons.swift */; };
+		9AC275E223D83DED003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC275E123D83DED003D70F5 /* UIAlertController+InitWithButtons.swift */; };
 		9AED007E23D42C61006E7C9A /* UITableView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */; };
 		9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */; };
 		9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */; };
@@ -68,6 +70,8 @@
 		9AA2231523B9DAC100EA681C /* Date+DaysMonthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysMonthTests.swift"; sourceTree = "<group>"; };
 		9AAEBBBA23B76A4F0072C008 /* Date+DayStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStep.swift"; sourceTree = "<group>"; };
 		9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
+		9AC275DE23D82935003D70F5 /* UIAlertController+InitWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+InitWithButtons.swift"; sourceTree = "<group>"; };
+		9AC275E123D83DED003D70F5 /* UIAlertController+InitWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+InitWithButtons.swift"; sourceTree = "<group>"; };
 		9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCell.swift"; sourceTree = "<group>"; };
 		9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableCell.swift"; sourceTree = "<group>"; };
 		9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCell.swift"; sourceTree = "<group>"; };
@@ -121,6 +125,7 @@
 		0B5C363223B7880100F9EDEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				9AC275DD23D82813003D70F5 /* UIAlertController */,
 				0B62623023D3006F00F9A668 /* UIButton */,
 				9AED008123D42D24006E7C9A /* UICollectionView */,
 				0B3E797623CBB7720090EFD6 /* UIColor */,
@@ -142,6 +147,7 @@
 		0B5C363623B7A26700F9EDEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				9AC275E023D83DD1003D70F5 /* UIAlertController */,
 				0B62623123D3009200F9A668 /* UIButton */,
 				9AED059C23D46A72006AE545 /* UICollectionView */,
 				0B3E797923CBB8400090EFD6 /* UIColor */,
@@ -231,6 +237,22 @@
 				9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		9AC275DD23D82813003D70F5 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				9AC275DE23D82935003D70F5 /* UIAlertController+InitWithButtons.swift */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		9AC275E023D83DD1003D70F5 /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				9AC275E123D83DED003D70F5 /* UIAlertController+InitWithButtons.swift */,
+			);
+			path = UIAlertController;
 			sourceTree = "<group>";
 		};
 		9AED007C23D42C27006E7C9A /* UITableView */ = {
@@ -427,6 +449,7 @@
 				9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */,
 				9AED008523D42D71006E7C9A /* UICollectionView+ReusableCell.swift in Sources */,
 				0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */,
+				9AC275DF23D82935003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */,
 				9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */,
@@ -441,6 +464,7 @@
 			files = (
 				9A0B338923D63D1B005C667A /* UIView+RemoveSubviewTests.swift in Sources */,
 				0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */,
+				9AC275E223D83DED003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */,
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
 				9AED008823D43C88006E7C9A /* UITableView+RegisterCellTests.swift in Sources */,
 				0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */,

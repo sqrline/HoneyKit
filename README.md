@@ -17,6 +17,9 @@ In process
 
 #### UIKit
 
+##### UIAlertController
+* [InitWithButtons](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIAlertController/UIAlertController%2BInitWithButtons.swift). Creates alert with action buttons.
+
 ##### UIButton
 * [SetTitle](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BSetTitle.swift). Sets title with animation.
 
