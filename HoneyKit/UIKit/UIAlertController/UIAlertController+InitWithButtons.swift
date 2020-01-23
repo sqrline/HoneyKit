@@ -20,11 +20,11 @@ public extension UIAlertController {
   /// someViewController.present(alert, animated: true)
   /// ```
   /// - Parameters:
-  ///   - title: The title of the alert
-  ///   - message: The description of the alert
-  ///   - tintColor: Tint color for alert elements
-  ///   - buttonTitle: Title for button
-  ///   - buttonAction: Action for button
+  ///   - title: Alert title
+  ///   - message: Alert body message
+  ///   - tintColor: Alert elements tint color
+  ///   - buttonTitle: Button title
+  ///   - buttonAction: Button action
   convenience init(
     title: String,
     message: String? = nil,
@@ -54,15 +54,15 @@ public extension UIAlertController {
   /// present(alert, animated: true)
   /// ```
   /// - Parameters:
-  ///   - title: The title of the alert
-  ///   - message: The description of the alert
-  ///   - tintColor: Tint color for alert elements
-  ///   - firstButtonTitle: Title for left side button
-  ///   - firstButtonAction: Action for left side button
-  ///   - firstButtonStyle: Style for left side button
-  ///   - secondButtonTitle: Title for right side button
-  ///   - secondButtonAction: Action for right side button
-  ///   - secondButtonStyle: Style for right side button
+  ///   - title: Alert title
+  ///   - message: Alert body message
+  ///   - tintColor: Alert elements tint color
+  ///   - firstButtonTitle: Left side button title
+  ///   - firstButtonAction: Left side button action
+  ///   - firstButtonStyle: Left side button style
+  ///   - secondButtonTitle: Right side button title
+  ///   - secondButtonAction: Right side button action
+  ///   - secondButtonStyle: Right side button style
   convenience init(
     title: String,
     message: String? = nil,

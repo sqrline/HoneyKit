@@ -8,21 +8,7 @@
 
 import XCTest
 
-final class UIAlertController_InitWithButtons: XCTestCase {
-  
-  // MARK: - Private Properties
-  
-  private var alertController: UIAlertController!
-  
-  // MARK: - Lifecycle
-  
-  override func setUp() {
-    super.setUp()
-  }
-  
-  override func tearDown() {
-    super.tearDown()
-  }
+final class UIAlertController_InitWithButtonsTests: XCTestCase {
   
   // MARK: - Init alert controller with one button
   
@@ -33,7 +19,7 @@ final class UIAlertController_InitWithButtons: XCTestCase {
     let expectationButtonTitle = "Ok"
     let expectationActionCount = 1
     
-    alertController = UIAlertController(
+    let alertController = UIAlertController(
       title: "Title",
       message: "Message",
       tintColor: .black,
@@ -63,7 +49,7 @@ final class UIAlertController_InitWithButtons: XCTestCase {
     
     let expectationActionCount = 2
     
-    alertController = UIAlertController(
+    let alertController = UIAlertController(
       title: "Title",
       message: "Message",
       tintColor: .black,
