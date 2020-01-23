@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B13E37223DA249300938C25 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13E37123DA249300938C25 /* String+Localized.swift */; };
 		0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */; };
 		0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */; };
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B13E37123DA249300938C25 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexTests.swift"; sourceTree = "<group>"; };
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
@@ -106,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B13E37023DA248300938C25 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				0B13E37123DA249300938C25 /* String+Localized.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
 		0B3E797623CBB7720090EFD6 /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				9AAD5BC923B5371200021FA6 /* Date */,
+				0B13E37023DA248300938C25 /* String */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -450,6 +461,7 @@
 				9AED008523D42D71006E7C9A /* UICollectionView+ReusableCell.swift in Sources */,
 				0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */,
 				9AC275DF23D82935003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */,
+				0B13E37223DA249300938C25 /* String+Localized.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */,
 				9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */,
@@ -494,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -557,6 +570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
