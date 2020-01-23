@@ -15,6 +15,9 @@ In process
 * [DaysMonth](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysMonth.swift). Returns start/end day of month.
 * [DaysWeek](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysWeek.swift). Returns start/end day of week.
 
+##### String 
+* [Localized](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BLocalized.swift). Returns an localized version of the string.
+
 #### UIKit
 
 ##### UIAlertController
