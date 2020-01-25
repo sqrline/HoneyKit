@@ -4,7 +4,31 @@
 
 ## 🛠 Install
 
-In process
+#### CocoaPods
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```bash
+$ gem install cocoapods
+```
+
+For integrate `HoneyKit` into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+target '<Your Target Name>' do
+pod 'HoneyKit', '~> 0.0.1'
+end
+```
+
+Then, run the following terminal command in project directory:
+
+```bash
+$ pod install
+```
 
 ## ⚡️ List of extensions
 
@@ -45,36 +69,7 @@ In process
 
 ## 🖥 Contributing
 
-* Make sure no similar extension already exist in HoneyKit.
-* A pull request should only add one extension at a time.
-* Do not use an existing extension inside another HoneyKit extension.
-* Code should follow [Swift Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
-* Always declare extensions as public.
-* All extensions should be tested.
-* The file name should be based on the type that extends + added functionality. (Example: UIViewController+ShowAlert.swift)
-* All extensions should be well documented.
-```
-// MARK: - Properties
-
-/// <Description>
-///
-/// # Example
-/// ```
-/// <Example code>
-/// ```
-
-// MARK: - Methods
-
-/// <Description>
-///
-/// # Example
-/// ```
-/// <Example code>
-/// ```
-/// - Parameters:
-///   - <Paramer>: <Description>
-/// - Returns: <Description>
-```
+Your contributions are always welcome! For add’s new extension submit a pull request. See [CONTRIBUTING.md](https://github.com/sqrline/HoneyKit/blob/master/CONTRIBUTING.md) for guidelines.
 
 ## 🖖 Authors
 
