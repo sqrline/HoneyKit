@@ -39,6 +39,10 @@ $ pod install
 * [DaysMonth](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysMonth.swift). Returns start/end day of month.
 * [DaysWeek](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysWeek.swift). Returns start/end day of week.
 
+##### String 
+* [HTML](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BHTML.swift). Converts html to an NSAttributedString with system iOS font.
+* [Localized](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BLocalized.swift). Returns an localized version of the string.
+
 #### UIKit
 
 ##### UIAlertController
@@ -59,6 +63,7 @@ $ pod install
 * [AddSubview](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BAddSubview.swift). Adds view with all sides constraints for filling into superview.
 * [HideKeyboard](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BHideKeyboard.swift). Hides keyboard if tap on current view's area.
 * [RemoveSubview](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BRemoveSubview.swift). Removes all subviews from current view.
+* [Shadow](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIView/UIView%2BShadow.swift). Drops shadow from the current view.
 
 ##### UITableView
 * [RegisterCell](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UITableView/UITableView%2BRegisterCell.swift). Registers a cell by class or nib for use in creating new table cells.
