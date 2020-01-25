@@ -16,6 +16,7 @@ In process
 * [DaysWeek](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysWeek.swift). Returns start/end day of week.
 
 ##### String 
+* [HTML](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BHTML.swift). Converts html to an NSAttributedString with system iOS font.
 * [Localized](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BLocalized.swift). Returns an localized version of the string.
 
 #### UIKit
