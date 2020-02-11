@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B13815723F0A59200C7CAC4 /* UIView+InitFromXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13815623F0A59200C7CAC4 /* UIView+InitFromXib.swift */; };
 		0B13E37223DA249300938C25 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13E37123DA249300938C25 /* String+Localized.swift */; };
 		0B13E3AC23DB8D9E00938C25 /* String+HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13E3AB23DB8D9E00938C25 /* String+HTML.swift */; };
 		0B13E3B023DB8E0500938C25 /* String+HTMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13E3AF23DB8E0500938C25 /* String+HTMLTests.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B13815623F0A59200C7CAC4 /* UIView+InitFromXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+InitFromXib.swift"; sourceTree = "<group>"; };
 		0B13E37123DA249300938C25 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		0B13E3AB23DB8D9E00938C25 /* String+HTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTML.swift"; sourceTree = "<group>"; };
 		0B13E3AF23DB8E0500938C25 /* String+HTMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTMLTests.swift"; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 				9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */,
 				9A0B338223D633CD005C667A /* UIView+AddSubview.swift */,
 				0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */,
+				0B13815623F0A59200C7CAC4 /* UIView+InitFromXib.swift */,
 				9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */,
 				0B13E3B123DB909700938C25 /* UIView+Shadow.swift */,
 			);
@@ -476,6 +479,7 @@
 				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
 				0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */,
 				9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */,
+				0B13815723F0A59200C7CAC4 /* UIView+InitFromXib.swift in Sources */,
 				9A0B338723D63C84005C667A /* UIView+RemoveSubview.swift in Sources */,
 				9A0B338323D633CD005C667A /* UIView+AddSubview.swift in Sources */,
 				9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */,
