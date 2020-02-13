@@ -15,7 +15,10 @@ extension UIButton {
   
   /// Position for activity indicator in button
   enum ActivityIndicatorPositionType {
+    /// Hides text, sets in center
     case center
+    
+    /// Sets to the left of the button text
     case label
   }
   
@@ -34,7 +37,7 @@ extension UIButton {
     }
   }
   
-  /// Hide activity indicator in button
+  /// Hides activity indicator in button
   func hideActivityIndicator() {
     for activityIndicator in subviews where activityIndicator is UIActivityIndicatorView {
       let propertyAnimator = UIViewPropertyAnimator(duration: 0.3, curve: .easeInOut) { [weak self] in
