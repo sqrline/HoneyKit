@@ -211,8 +211,8 @@
 		0B62623123D3009200F9A668 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */,
 				9A4AE36D23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift */,
+				0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
