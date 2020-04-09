@@ -37,6 +37,8 @@ public extension UIAlertController {
       buttonAction?()
     }
     
+    
+    [1,3][safe: 2]
     if let tintColor = tintColor {
       view.tintColor = tintColor
     }
