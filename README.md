@@ -34,7 +34,10 @@ $ pod install
 
 #### Foundation
 
-##### Date 
+##### Collection
+* [IsNotEmpty](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Collection/Collection%2BIsNotEmpty.swift). Indicating whether the collection is not empty.
+
+##### Date
 * [DayStep](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift). Returns date after adding step to exists date based on direction.
 * [DaysMonth](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysMonth.swift). Returns start/end day of month.
 * [DaysWeek](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysWeek.swift). Returns start/end day of week.
