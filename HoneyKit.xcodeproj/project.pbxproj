@@ -15,11 +15,13 @@
 		0B13E3B423DB90BF00938C25 /* UIView+ShadowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B13E3B323DB90BF00938C25 /* UIView+ShadowTests.swift */; };
 		0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */; };
 		0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */; };
+		0B48C5AE2401873A00BD88C1 /* Collection+IsNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48C5AD2401873A00BD88C1 /* Collection+IsNotEmpty.swift */; };
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */; };
 		0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */; };
 		0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */; };
 		0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */; };
+		0BF74141243EFC7600F2638B /* Collection+IsNotEmptyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF74140243EFC7500F2638B /* Collection+IsNotEmptyTests.swift */; };
 		9A0B338323D633CD005C667A /* UIView+AddSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338223D633CD005C667A /* UIView+AddSubview.swift */; };
 		9A0B338523D6361F005C667A /* UIView+AddSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */; };
 		9A0B338723D63C84005C667A /* UIView+RemoveSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */; };
@@ -67,11 +69,13 @@
 		0B13E3B323DB90BF00938C25 /* UIView+ShadowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ShadowTests.swift"; sourceTree = "<group>"; };
 		0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexTests.swift"; sourceTree = "<group>"; };
+		0B48C5AD2401873A00BD88C1 /* Collection+IsNotEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+IsNotEmpty.swift"; sourceTree = "<group>"; };
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildTests.swift"; sourceTree = "<group>"; };
 		0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+SetTitle.swift"; sourceTree = "<group>"; };
 		0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+SetTitleTests.swift"; sourceTree = "<group>"; };
 		0BCB227823C127A40028CF9C /* UIView+HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+HideKeyboard.swift"; sourceTree = "<group>"; };
+		0BF74140243EFC7500F2638B /* Collection+IsNotEmptyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+IsNotEmptyTests.swift"; sourceTree = "<group>"; };
 		9A0B338223D633CD005C667A /* UIView+AddSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubview.swift"; sourceTree = "<group>"; };
 		9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviewTests.swift"; sourceTree = "<group>"; };
 		9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubview.swift"; sourceTree = "<group>"; };
@@ -155,6 +159,14 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		0B48C5AC2401872F00BD88C1 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				0B48C5AD2401873A00BD88C1 /* Collection+IsNotEmpty.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
 		0B5C363223B7880100F9EDEE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +229,14 @@
 			path = UIButton;
 			sourceTree = "<group>";
 		};
+		0BF7413F243EFC5800F2638B /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				0BF74140243EFC7500F2638B /* Collection+IsNotEmptyTests.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
 		9A6C61AC23C0DF61000D6437 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +251,7 @@
 		9A85D7B323B898E00027C678 /* Foudation */ = {
 			isa = PBXGroup;
 			children = (
+				0BF7413F243EFC5800F2638B /* Collection */,
 				0B13E3AE23DB8DFA00938C25 /* String */,
 				9A85D7B423B898E70027C678 /* Date */,
 			);
@@ -250,6 +271,7 @@
 		9AAD5BC823B5370900021FA6 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				0B48C5AC2401872F00BD88C1 /* Collection */,
 				9AAD5BC923B5371200021FA6 /* Date */,
 				0B13E37023DA248300938C25 /* String */,
 			);
@@ -494,6 +516,7 @@
 				9AC275DF23D82935003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */,
 				0B13E3B223DB909700938C25 /* UIView+Shadow.swift in Sources */,
 				0B13E37223DA249300938C25 /* String+Localized.swift in Sources */,
+				0B48C5AE2401873A00BD88C1 /* Collection+IsNotEmpty.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */,
 				9A4AE36C23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift in Sources */,
@@ -523,6 +546,7 @@
 				9AED05A023D46C34006AE545 /* UICollectionView+ReusableCellTests.swift in Sources */,
 				0B13E3B423DB90BF00938C25 /* UIView+ShadowTests.swift in Sources */,
 				9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */,
+				0BF74141243EFC7600F2638B /* Collection+IsNotEmptyTests.swift in Sources */,
 				9AED059B23D4673D006AE545 /* UITableView+ReusableCellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
