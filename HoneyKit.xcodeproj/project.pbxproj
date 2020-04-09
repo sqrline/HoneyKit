@@ -26,6 +26,7 @@
 		9A0B338523D6361F005C667A /* UIView+AddSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */; };
 		9A0B338723D63C84005C667A /* UIView+RemoveSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */; };
 		9A0B338923D63D1B005C667A /* UIView+RemoveSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */; };
+		9A1659E8243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1659E7243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift */; };
 		9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */; };
 		9A4AE36C23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AE36B23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift */; };
 		9A4AE36E23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AE36D23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift */; };
@@ -38,6 +39,7 @@
 		9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */; };
 		9AC275DF23D82935003D70F5 /* UIAlertController+InitWithButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC275DE23D82935003D70F5 /* UIAlertController+InitWithButtons.swift */; };
 		9AC275E223D83DED003D70F5 /* UIAlertController+InitWithButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC275E123D83DED003D70F5 /* UIAlertController+InitWithButtonsTests.swift */; };
+		9AE48232243F9A5E0099FCCB /* UIBarButtonItem+Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE48231243F9A5E0099FCCB /* UIBarButtonItem+Badge.swift */; };
 		9AED007E23D42C61006E7C9A /* UITableView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */; };
 		9AED008023D42CD2006E7C9A /* UITableView+ReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */; };
 		9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */; };
@@ -80,6 +82,7 @@
 		9A0B338423D6361F005C667A /* UIView+AddSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddSubviewTests.swift"; sourceTree = "<group>"; };
 		9A0B338623D63C84005C667A /* UIView+RemoveSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubview.swift"; sourceTree = "<group>"; };
 		9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubviewTests.swift"; sourceTree = "<group>"; };
+		9A1659E7243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+BadgeTests.swift"; sourceTree = "<group>"; };
 		9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysWeekTests.swift"; sourceTree = "<group>"; };
 		9A4AE36B23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ActivityIndicator.swift"; sourceTree = "<group>"; };
 		9A4AE36D23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ActivityIndicatorTests.swift"; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 		9AC1951923BF6B5B009A636F /* UIView+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicator.swift"; sourceTree = "<group>"; };
 		9AC275DE23D82935003D70F5 /* UIAlertController+InitWithButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+InitWithButtons.swift"; sourceTree = "<group>"; };
 		9AC275E123D83DED003D70F5 /* UIAlertController+InitWithButtonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+InitWithButtonsTests.swift"; sourceTree = "<group>"; };
+		9AE48231243F9A5E0099FCCB /* UIBarButtonItem+Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Badge.swift"; sourceTree = "<group>"; };
 		9AED007D23D42C61006E7C9A /* UITableView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+RegisterCell.swift"; sourceTree = "<group>"; };
 		9AED007F23D42CD2006E7C9A /* UITableView+ReusableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+ReusableCell.swift"; sourceTree = "<group>"; };
 		9AED008223D42D3B006E7C9A /* UICollectionView+RegisterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+RegisterCell.swift"; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9AC275DD23D82813003D70F5 /* UIAlertController */,
+				9AE48230243F9A4F0099FCCB /* UIBarButtonItem */,
 				0B62623023D3006F00F9A668 /* UIButton */,
 				9AED008123D42D24006E7C9A /* UICollectionView */,
 				0B3E797623CBB7720090EFD6 /* UIColor */,
@@ -193,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				9AC275E023D83DD1003D70F5 /* UIAlertController */,
+				9A1659E6243F9DCD002E1C81 /* UIBarButtonItem */,
 				0B62623123D3009200F9A668 /* UIButton */,
 				9AED059C23D46A72006AE545 /* UICollectionView */,
 				0B3E797923CBB8400090EFD6 /* UIColor */,
@@ -235,6 +241,14 @@
 				0BF74140243EFC7500F2638B /* Collection+IsNotEmptyTests.swift */,
 			);
 			path = Collection;
+			sourceTree = "<group>";
+		};
+		9A1659E6243F9DCD002E1C81 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				9A1659E7243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift */,
+			);
+			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
 		9A6C61AC23C0DF61000D6437 /* UIView */ = {
@@ -315,6 +329,14 @@
 				9AC275E123D83DED003D70F5 /* UIAlertController+InitWithButtonsTests.swift */,
 			);
 			path = UIAlertController;
+			sourceTree = "<group>";
+		};
+		9AE48230243F9A4F0099FCCB /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				9AE48231243F9A5E0099FCCB /* UIBarButtonItem+Badge.swift */,
+			);
+			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
 		9AED007C23D42C27006E7C9A /* UITableView */ = {
@@ -506,6 +528,7 @@
 				0B13E3AC23DB8D9E00938C25 /* String+HTML.swift in Sources */,
 				9AAEBBBB23B76A4F0072C008 /* Date+DayStep.swift in Sources */,
 				0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */,
+				9AE48232243F9A5E0099FCCB /* UIBarButtonItem+Badge.swift in Sources */,
 				9AA2231423B9D9E800EA681C /* Date+DaysMonth.swift in Sources */,
 				0B13815723F0A59200C7CAC4 /* UIView+InitFromXib.swift in Sources */,
 				9A0B338723D63C84005C667A /* UIView+RemoveSubview.swift in Sources */,
@@ -535,6 +558,7 @@
 				0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */,
 				9AC275E223D83DED003D70F5 /* UIAlertController+InitWithButtonsTests.swift in Sources */,
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
+				9A1659E8243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift in Sources */,
 				9AED008823D43C88006E7C9A /* UITableView+RegisterCellTests.swift in Sources */,
 				0B13E3B023DB8E0500938C25 /* String+HTMLTests.swift in Sources */,
 				0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */,

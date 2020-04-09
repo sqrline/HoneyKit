@@ -51,6 +51,9 @@ $ pod install
 ##### UIAlertController
 * [InitWithButtons](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIAlertController/UIAlertController%2BInitWithButtons.swift). Creates alert with action buttons.
 
+##### UIBarButtonItem
+* [Badge](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIBarButtonItem/UIBarButtonItem%2BBadge.swift). Shows notification badge on bar button.
+
 ##### UIButton
 * [ActivityIndicator](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BActivityIndicator.swift). Shows/hides activity indicator in button for indicate loading process.
 * [SetTitle](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BSetTitle.swift). Sets title with animation.
