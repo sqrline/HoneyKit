@@ -19,7 +19,7 @@ public extension Collection {
   /// let isArrayNotEmpty = array.isNotEmpty // true
   /// ```
   var isNotEmpty: Bool {
-    return !self.isEmpty
+    return !isEmpty
   }
   
 }
