@@ -36,6 +36,7 @@ $ pod install
 
 ##### Collection
 * [IsNotEmpty](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Collection/Collection%2BIsNotEmpty.swift). Indicating whether the collection is not empty.
+* [SafeSubscript](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Collection/Collection%2BSafeSubscript.swift). Returns the element at the specified index if it is within bounds, otherwise nil.
 
 ##### Date
 * [DayStep](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift). Returns date after adding step to exists date based on direction.
