@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [],
     targets: [
-        .target(name: "HoneyKit", path: "HoneyKit", dependencies: []),
+        .target(name: "HoneyKit", dependencies: [], path: "HoneyKit"),
         .testTarget(name: "HoneyKitTests", dependencies: ["HoneyKit"], path: "HoneyKitTests")
     ]
 )
