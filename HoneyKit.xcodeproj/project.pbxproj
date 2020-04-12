@@ -16,6 +16,8 @@
 		0B3E797823CBB79F0090EFD6 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */; };
 		0B3E797D23CBB8670090EFD6 /* UIColor+HexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */; };
 		0B48C5AE2401873A00BD88C1 /* Collection+IsNotEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48C5AD2401873A00BD88C1 /* Collection+IsNotEmpty.swift */; };
+		0B5ADDD1243FB7E000EEF7EC /* Collection+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5ADDD0243FB7E000EEF7EC /* Collection+SafeSubscript.swift */; };
+		0B5ADDD3243FBA5300EEF7EC /* Collection+SafeSubscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5ADDD2243FBA5200EEF7EC /* Collection+SafeSubscriptTests.swift */; };
 		0B5C363523B7891700F9EDEE /* UIViewController+Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */; };
 		0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */; };
 		0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */; };
@@ -72,6 +74,8 @@
 		0B3E797723CBB79F0090EFD6 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 		0B3E797C23CBB8670090EFD6 /* UIColor+HexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HexTests.swift"; sourceTree = "<group>"; };
 		0B48C5AD2401873A00BD88C1 /* Collection+IsNotEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+IsNotEmpty.swift"; sourceTree = "<group>"; };
+		0B5ADDD0243FB7E000EEF7EC /* Collection+SafeSubscript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscript.swift"; sourceTree = "<group>"; };
+		0B5ADDD2243FBA5200EEF7EC /* Collection+SafeSubscriptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeSubscriptTests.swift"; sourceTree = "<group>"; };
 		0B5C363423B7891700F9EDEE /* UIViewController+Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Child.swift"; sourceTree = "<group>"; };
 		0B5C363823B7A28F00F9EDEE /* UIViewController+ChildTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildTests.swift"; sourceTree = "<group>"; };
 		0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+SetTitle.swift"; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				0B48C5AD2401873A00BD88C1 /* Collection+IsNotEmpty.swift */,
+				0B5ADDD0243FB7E000EEF7EC /* Collection+SafeSubscript.swift */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				0BF74140243EFC7500F2638B /* Collection+IsNotEmptyTests.swift */,
+				0B5ADDD2243FBA5200EEF7EC /* Collection+SafeSubscriptTests.swift */,
 			);
 			path = Collection;
 			sourceTree = "<group>";
@@ -559,6 +565,7 @@
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */,
 				9A4AE36C23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift in Sources */,
+				0B5ADDD1243FB7E000EEF7EC /* Collection+SafeSubscript.swift in Sources */,
 				9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */,
 				9A87152B23C3A2780056CB2E /* Date+DaysWeek.swift in Sources */,
 				0BCB227923C127A40028CF9C /* UIView+HideKeyboard.swift in Sources */,
@@ -581,6 +588,7 @@
 				9A0B338523D6361F005C667A /* UIView+AddSubviewTests.swift in Sources */,
 				0B5C363923B7A28F00F9EDEE /* UIViewController+ChildTests.swift in Sources */,
 				9AA2231623B9DAC100EA681C /* Date+DaysMonthTests.swift in Sources */,
+				0B5ADDD3243FBA5300EEF7EC /* Collection+SafeSubscriptTests.swift in Sources */,
 				9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */,
 				9AED059E23D46A8B006AE545 /* UICollectionView+RegisterCellTests.swift in Sources */,
 				9AED05A023D46C34006AE545 /* UICollectionView+ReusableCellTests.swift in Sources */,
