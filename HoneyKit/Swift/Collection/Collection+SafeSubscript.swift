@@ -6,8 +6,6 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
-import Foundation
-
 /// Returns the element at the specified index if it is within bounds, otherwise nil.
 public extension Collection {
   
@@ -19,5 +17,4 @@ public extension Collection {
   subscript (safe index: Index) -> Iterator.Element? {
     return indices.contains(index) ? self[index] : nil
   }
-  
 }
