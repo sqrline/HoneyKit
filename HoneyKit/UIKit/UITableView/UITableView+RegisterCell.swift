@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Registers a cell by class or nib for use in creating new table cells
@@ -43,3 +44,4 @@ public extension UITableView {
     register(cellNib, forCellReuseIdentifier: cellName)
   }
 }
+#endif

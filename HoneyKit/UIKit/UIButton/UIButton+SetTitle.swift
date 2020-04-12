@@ -6,8 +6,10 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
+/// Sets title to button width animation
 public extension UIButton {
   
   /// Sets title with animation.
@@ -63,3 +65,4 @@ public extension UIButton {
   }
   
 }
+#endif

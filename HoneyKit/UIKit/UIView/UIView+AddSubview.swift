@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Adds view with all sides constraints for filling into superview
@@ -34,3 +35,4 @@ public extension UIView {
     ])
   }
 }
+#endif

@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Conveniece init color from hex string.
@@ -49,3 +50,4 @@ public extension UIColor {
   }
   
 }
+#endif

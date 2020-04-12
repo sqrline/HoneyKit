@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Creates alert with action buttons
@@ -36,7 +37,7 @@ public extension UIAlertController {
     let buttonAction = UIAlertAction(title: buttonTitle, style: .default) { _ in
       buttonAction?()
     }
-    
+
     if let tintColor = tintColor {
       view.tintColor = tintColor
     }
@@ -91,3 +92,4 @@ public extension UIAlertController {
     addAction(secondButtonAction)
   }
 }
+#endif

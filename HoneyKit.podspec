@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
     s.name = "HoneyKit"
-    s.version = "0.0.1"
+    s.version = "1.0.0"
     s.summary = "HoneyKit is extensions for solve common tasks in iOS development"
     s.authors = { 'Aleksey Pleshkov' => 'im@alekseypleshkov.ru', 'Vladimir Pchelyakov' => 'v.pchelyakov@yandex.ru' }
     s.homepage = "https://github.com/sqrline"
