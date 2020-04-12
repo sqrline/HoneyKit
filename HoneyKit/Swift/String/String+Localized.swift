@@ -6,6 +6,9 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(Foundation)
+import Foundation
+
 /// Returns an localized version of the string.
 public extension String {
   
@@ -13,5 +16,5 @@ public extension String {
   var localized: String {
     return NSLocalizedString(self, comment: "")
   }
-  
 }
+#endif
