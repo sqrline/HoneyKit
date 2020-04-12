@@ -6,8 +6,6 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
-import Foundation
-
 /// Returns an localized version of the string.
 public extension String {
   

@@ -6,6 +6,7 @@
 //  Copyright © 2019 SQR. All rights reserved.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 /// Returns start/end day of month
@@ -43,3 +44,4 @@ public extension Date  {
     return calendar.date(byAdding: components, to: startOfMonth) ?? self
   }
 }
+#endif

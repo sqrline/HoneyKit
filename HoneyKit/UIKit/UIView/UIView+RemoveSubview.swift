@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Removes all subviews from current view
@@ -28,3 +29,4 @@ public extension UIView {
     subviews.forEach { $0.removeFromSuperview() }
   }
 }
+#endif

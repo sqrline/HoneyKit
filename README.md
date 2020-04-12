@@ -6,13 +6,7 @@
 
 #### CocoaPods
 
-[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-For integrate `HoneyKit` into your Xcode project using CocoaPods, specify it in your `Podfile`:
+For integrate `HoneyKit` into your Xcode project using [CocoaPods](https://cocoapods.org), specify it in your `Podfile`:
 
 ```ruby
 source 'https://github.com/CocoaPods/Specs.git'
@@ -20,7 +14,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'HoneyKit', '~> 0.0.1'
+pod 'HoneyKit', '~> 1.0.0'
 end
 ```
 
@@ -30,21 +24,55 @@ Then, run the following terminal command in project directory:
 $ pod install
 ```
 
+#### Swift Package Manager
+
+For use [The Swift Package Manager](https://swift.org/package-manager/) you need add `HoneyKit` dependency to `Package.swift` file:
+
+```swift
+import PackageDescription
+
+let package = Package(
+  name: "PROJECT_NAME",
+  targets: [],
+  dependencies: [
+      .package(url: "https://github.com/sqrline/HoneyKit.git", from: "1.0.0")
+  ]
+)
+```
+
+Then add `HoneyKit` to your targets dependencies:
+
+```swift
+.target(
+  name: "TARGET_NAME",
+  dependencies: [
+      "HoneyKit",
+  ]
+),
+```
+
+And run terminal command:
+
+```bash
+swift package update
+```
+
 ## ⚡️ List of extensions
 
-#### Foundation
+#### Swift
 
 ##### Collection
-* [IsNotEmpty](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Collection/Collection%2BIsNotEmpty.swift). Indicating whether the collection is not empty.
+* [IsNotEmpty](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Swift/Collection/Collection%2BIsNotEmpty.swift). Indicating whether the collection is not empty.
+##### String
+* [HTML](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Swift/String/String%2BHTML.swift). Converts html to an NSAttributedString with system iOS font.
+* [Localized](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Swift/String/String%2BLocalized.swift). Returns an localized version of the string.
+
+#### Foundation
 
 ##### Date
 * [DayStep](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDayStep.swift). Returns date after adding step to exists date based on direction.
 * [DaysMonth](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysMonth.swift). Returns start/end day of month.
 * [DaysWeek](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/Date/Date%2BDaysWeek.swift). Returns start/end day of week.
-
-##### String 
-* [HTML](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BHTML.swift). Converts html to an NSAttributedString with system iOS font.
-* [Localized](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/Foundation/String/String%2BLocalized.swift). Returns an localized version of the string.
 
 #### UIKit
 

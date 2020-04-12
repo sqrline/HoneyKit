@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Returns a reusable collection view cell object by class with index path
@@ -34,3 +35,4 @@ public extension UICollectionView {
     return cell
   }
 }
+#endif

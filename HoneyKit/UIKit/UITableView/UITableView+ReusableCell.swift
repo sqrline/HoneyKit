@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Returns a reusable table view cell object by class
@@ -55,3 +56,4 @@ public extension UITableView {
     return cell
   }
 }
+#endif

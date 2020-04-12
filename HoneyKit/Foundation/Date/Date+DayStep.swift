@@ -6,6 +6,7 @@
 //  Copyright © 2019 SQR. All rights reserved.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 /// Returns date after adding step to exists date based on direction
@@ -41,3 +42,4 @@ public extension Date {
     return calendar.date(byAdding: .day, value: stepValue, to: self) ?? self
   }
 }
+#endif

@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Instantiates view from xib.
@@ -32,5 +33,5 @@ public extension UIView {
     
     return view
   }
-  
 }
+#endif

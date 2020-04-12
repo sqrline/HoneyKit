@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Adds/hides container with activity indicator in view
@@ -127,4 +128,4 @@ public extension UIView {
     activityIndicatorContainerView.hide(withDuration: duration)
   }
 }
-
+#endif

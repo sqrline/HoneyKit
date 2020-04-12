@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Shows/hides activity indicator in button for indicate loading process
@@ -107,3 +108,4 @@ extension UIButton {
     propertyAnimator.startAnimation()
   }
 }
+#endif

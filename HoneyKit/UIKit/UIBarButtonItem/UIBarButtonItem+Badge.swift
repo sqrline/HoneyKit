@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Shows notification badge on bar button
@@ -123,3 +124,4 @@ fileprivate class BadgeLabel: UILabel {
     isHidden = badgeValue == nil
   }
 }
+#endif

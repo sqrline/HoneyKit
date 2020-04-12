@@ -6,8 +6,6 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
-import Foundation
-
 /// Indicating whether the collection is not empty.
 public extension Collection {
   
@@ -21,5 +19,4 @@ public extension Collection {
   var isNotEmpty: Bool {
     return !isEmpty
   }
-  
 }

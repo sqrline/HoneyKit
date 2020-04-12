@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Converts html to an NSAttributedString with system iOS font.
@@ -37,5 +38,6 @@ public extension String {
       return nil
     }
   }
-  
 }
+
+#endif

@@ -130,15 +130,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B13E37023DA248300938C25 /* String */ = {
-			isa = PBXGroup;
-			children = (
-				0B13E3AB23DB8D9E00938C25 /* String+HTML.swift */,
-				0B13E37123DA249300938C25 /* String+Localized.swift */,
-			);
-			path = String;
-			sourceTree = "<group>";
-		};
 		0B13E3AE23DB8DFA00938C25 /* String */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +242,33 @@
 			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
+		9A16C86C2441E00A00A1D724 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0B48C5AC2401872F00BD88C1 /* Collection */,
+				9A16C86D2441E01200A1D724 /* String */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		9A16C86D2441E01200A1D724 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				0B13E3AB23DB8D9E00938C25 /* String+HTML.swift */,
+				0B13E37123DA249300938C25 /* String+Localized.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		9A2108552442541A000046EA /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0BF7413F243EFC5800F2638B /* Collection */,
+				0B13E3AE23DB8DFA00938C25 /* String */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		9A6C61AC23C0DF61000D6437 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
@@ -265,8 +283,6 @@
 		9A85D7B323B898E00027C678 /* Foudation */ = {
 			isa = PBXGroup;
 			children = (
-				0BF7413F243EFC5800F2638B /* Collection */,
-				0B13E3AE23DB8DFA00938C25 /* String */,
 				9A85D7B423B898E70027C678 /* Date */,
 			);
 			path = Foudation;
@@ -285,9 +301,7 @@
 		9AAD5BC823B5370900021FA6 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				0B48C5AC2401872F00BD88C1 /* Collection */,
 				9AAD5BC923B5371200021FA6 /* Date */,
-				0B13E37023DA248300938C25 /* String */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -399,6 +413,7 @@
 				9AF78A5E23B28F71003746D8 /* HoneyKit.h */,
 				9AF78A5F23B28F71003746D8 /* Info.plist */,
 				9AAD5BC823B5370900021FA6 /* Foundation */,
+				9A16C86C2441E00A00A1D724 /* Swift */,
 				0B5C363223B7880100F9EDEE /* UIKit */,
 			);
 			path = HoneyKit;
@@ -407,9 +422,10 @@
 		9AF78A6823B28F71003746D8 /* HoneyKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A85D7B323B898E00027C678 /* Foudation */,
-				0B5C363623B7A26700F9EDEE /* UIKit */,
 				9AF78A6B23B28F71003746D8 /* Info.plist */,
+				9A85D7B323B898E00027C678 /* Foudation */,
+				9A2108552442541A000046EA /* Swift */,
+				0B5C363623B7A26700F9EDEE /* UIKit */,
 			);
 			path = HoneyKitTests;
 			sourceTree = "<group>";

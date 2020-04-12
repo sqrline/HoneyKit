@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Drops shadow from the current view.
@@ -31,5 +32,5 @@ public extension UIView {
       roundedRect: bounds,
       cornerRadius: layer.cornerRadius).cgPath
   }
-  
 }
+#endif

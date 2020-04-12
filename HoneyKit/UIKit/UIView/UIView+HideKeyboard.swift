@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Hides keyboard if tap on current view's area.
@@ -32,5 +33,5 @@ public extension UIView {
     
     self.addGestureRecognizer(tapGestureRecognizer)
   }
-  
 }
+#endif

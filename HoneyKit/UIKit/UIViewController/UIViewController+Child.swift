@@ -6,6 +6,7 @@
 //  Copyright © 2019 SQR. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 /// Handles (adds, removes and switches) child of the current view controller.
@@ -88,3 +89,4 @@ public extension UIViewController {
     next.didMove(toParent: self)
   }
 }
+#endif

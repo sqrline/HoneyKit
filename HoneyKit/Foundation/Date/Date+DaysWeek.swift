@@ -6,6 +6,7 @@
 //  Copyright © 2020 SQR. All rights reserved.
 //
 
+#if canImport(Foundation)
 import Foundation
 
 /// Returns start/end day of week
@@ -49,3 +50,4 @@ public extension Date  {
     return resultDate
   }
 }
+#endif
