@@ -14,7 +14,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'HoneyKit', '~> 1.0.0'
+pod 'HoneyKit', '~> 1.0.1'
 end
 ```
 
@@ -35,7 +35,7 @@ let package = Package(
   name: "PROJECT_NAME",
   targets: [],
   dependencies: [
-      .package(url: "https://github.com/sqrline/HoneyKit.git", from: "1.0.0")
+      .package(url: "https://github.com/sqrline/HoneyKit.git", from: "1.0.1")
   ]
 )
 ```

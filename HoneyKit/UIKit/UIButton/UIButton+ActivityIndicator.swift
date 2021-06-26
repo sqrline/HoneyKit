@@ -10,7 +10,7 @@
 import UIKit
 
 /// Shows/hides activity indicator in button for indicate loading process
-extension UIButton {
+public extension UIButton {
   
   // MARK: - Custom types
   

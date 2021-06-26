@@ -39,7 +39,8 @@ final class UIView_ActivityIndicatorTests: XCTestCase {
     rootViewController.view.showActivityIndicator(
       backgroundColor: .black,
       color: .white,
-      style: .medium)
+      style: .white
+    )
         
     // Then
     let containerActivityIndicator = rootViewController.view.subviews.first
@@ -50,7 +51,7 @@ final class UIView_ActivityIndicatorTests: XCTestCase {
     
     XCTAssertEqual(containerActivityIndicator?.backgroundColor, UIColor.black)
     XCTAssertEqual(activityIndicator?.color, UIColor.white)
-    XCTAssertEqual(activityIndicator?.style, UIActivityIndicatorView.Style.medium)
+    XCTAssertEqual(activityIndicator?.style, UIActivityIndicatorView.Style.white)
   }
   
   // MARK: - Hide activity indicator
