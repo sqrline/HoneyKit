@@ -14,7 +14,7 @@ platform :ios, '11.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-pod 'HoneyKit', '~> 1.0.1'
+pod 'HoneyKit', '~> 1.1.0'
 end
 ```
 
@@ -35,7 +35,7 @@ let package = Package(
   name: "PROJECT_NAME",
   targets: [],
   dependencies: [
-      .package(url: "https://github.com/sqrline/HoneyKit.git", from: "1.0.1")
+      .package(url: "https://github.com/sqrline/HoneyKit.git", from: "1.1.0")
   ]
 )
 ```
@@ -84,7 +84,7 @@ swift package update
 * [Badge](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIBarButtonItem/UIBarButtonItem%2BBadge.swift). Shows notification badge on bar button.
 
 ##### UIButton
-* [ActivityIndicator](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BActivityIndicator.swift). Shows/hides activity indicator in button for indicate loading process.
+* [LoadingIndicator](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BLoadingIndicator.swift). Shows/hides activity indicator in button for indicate loading process.
 * [SetTitle](https://github.com/sqrline/HoneyKit/blob/master/HoneyKit/UIKit/UIButton/UIButton%2BSetTitle.swift). Sets title with animation.
 
 ##### UICollectionView
@@ -115,11 +115,11 @@ Your contributions are always welcome! For add’s new extension submit a pull r
 
 ## 🖖 Authors
 
-#### Vladimir Pchelyakov 🇷🇺
+#### Vladimir Pchelyakov
 * Email: [v.pchelyakov@yandex.ru](mailto:v.pchelyakov@yandex.ru)
 * Telegram: [@BastienBalla](https://t.me/BastienBalla)
 
-#### Aleksey Pleshkov 🇷🇺
+#### Aleksey Pleshkov
 * Website: [alekseypleshkov.ru](https://alekseypleshkov.ru)
 * Email: [im@alekseypleshkov.ru](mailto:im@alekseypleshkov.ru)
 * Telegram: [@AlekseyPleshkov](https://t.me/AlekseyPleshkov)

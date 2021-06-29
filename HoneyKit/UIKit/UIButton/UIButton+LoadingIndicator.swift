@@ -1,5 +1,5 @@
 //
-//  UIButton+ActivityIndicator.swift
+//  UIButton+LoadingIndicator.swift
 //  HoneyKit
 //
 //  Created by Aleksey Pleshkov on 12.02.2020.
@@ -15,10 +15,9 @@ public extension UIButton {
   // MARK: - Custom types
   
   /// Position for activity indicator in button
-  enum ActivityIndicatorPositionType {
+  enum LoadingIndicatorPositionType {
     /// Hides text, sets in center
     case center
-    
     /// Sets to the left of the button text
     case label
   }
@@ -29,17 +28,17 @@ public extension UIButton {
   /// - Parameters:
   ///   - position: Activity indicator position
   ///   - color: Color for activity indicator
-  func showActivityIndicator(at position: ActivityIndicatorPositionType, color: UIColor = .white) {
+  func showLoadingIndicator(at position: LoadingIndicatorPositionType, color: UIColor = .white) {
     switch position {
     case .center:
-      showActivityIndicatorCenter(color: color)
+      showLoadingIndicatorCenter(color: color)
     case .label:
-      showActivityIndicatorLabel(color: color)
+      showLoadingIndicatorLabel(color: color)
     }
   }
   
   /// Hides activity indicator in button
-  func hideActivityIndicator() {
+  func hideLoadingIndicator() {
     for activityIndicator in subviews where activityIndicator is UIActivityIndicatorView {
       let propertyAnimator = UIViewPropertyAnimator(duration: 0.3, curve: .easeInOut) { [weak self] in
         self?.titleLabel?.alpha = 1
@@ -57,7 +56,7 @@ public extension UIButton {
   
   // MARK: - Private Methods
   
-  private func showActivityIndicatorCenter(color: UIColor) {
+  private func showLoadingIndicatorCenter(color: UIColor) {
     let activityIndicator = UIActivityIndicatorView()
     let propertyAnimator = UIViewPropertyAnimator(duration: 0.3, curve: .easeInOut) { [weak self] in
       self?.titleLabel?.alpha = 0
@@ -80,7 +79,7 @@ public extension UIButton {
     propertyAnimator.startAnimation()
   }
   
-  private func showActivityIndicatorLabel(color: UIColor) {
+  private func showLoadingIndicatorLabel(color: UIColor) {
     guard let titleLabel = titleLabel else {
       return
     }
