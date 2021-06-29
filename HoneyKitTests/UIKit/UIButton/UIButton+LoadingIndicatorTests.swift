@@ -1,5 +1,5 @@
 //
-//  UIButton+ActivityIndicatorTests.swift
+//  UIButton+LoadingIndicatorTests.swift
 //  HoneyKitTests
 //
 //  Created by Aleksey Pleshkov on 12.02.2020.
@@ -9,18 +9,18 @@
 @testable import HoneyKit
 import XCTest
 
-class UIButton_ActivityIndicatorTests: XCTestCase {
+class UIButton_LoadingIndicatorTests: XCTestCase {
   
   // MARK: - Public Methods
   
-  func testShowActivityIndicatorAtCenter() {
+  func testShowLoadingIndicatorAtCenter() {
     // Given
     let button = UIButton()
     let expectedColor = UIColor.red
     let expectedConstraintCount = 2
     
     // When
-    button.showActivityIndicator(at: .center, color: .red)
+    button.showLoadingIndicator(at: .center, color: .red)
     button.layoutIfNeeded()
     
     // Then
@@ -31,14 +31,14 @@ class UIButton_ActivityIndicatorTests: XCTestCase {
     XCTAssertEqual(button.constraints.count, expectedConstraintCount)
   }
   
-  func testHideActivityIndicator() {
+  func testHideLoadingIndicator() {
     // Given
     let button = UIButton()
-    let expectationActivityIndicator = expectation(description: "activityIndicatorHide")
+    let expectationActivityIndicator = expectation(description: "loadingIndicatorHide")
     
     // When
-    button.showActivityIndicator(at: .center, color: .red)
-    button.hideActivityIndicator()
+    button.showLoadingIndicator(at: .center, color: .red)
+    button.hideLoadingIndicator()
     
     DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
       expectationActivityIndicator.fulfill()
