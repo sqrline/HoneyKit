@@ -30,8 +30,8 @@
 		9A0B338923D63D1B005C667A /* UIView+RemoveSubviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */; };
 		9A1659E8243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1659E7243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift */; };
 		9A2782E023C4C19D007B90CE /* Date+DaysWeekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */; };
-		9A4AE36C23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AE36B23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift */; };
-		9A4AE36E23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AE36D23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift */; };
+		9A4AE36C23F41E1D000B4D86 /* UIButton+LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AE36B23F41E1D000B4D86 /* UIButton+LoadingIndicator.swift */; };
+		9A4AE36E23F4203B000B4D86 /* UIButton+LoadingIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AE36D23F4203B000B4D86 /* UIButton+LoadingIndicatorTests.swift */; };
 		9A6C61AE23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */; };
 		9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */; };
 		9A87152B23C3A2780056CB2E /* Date+DaysWeek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A87152A23C3A2780056CB2E /* Date+DaysWeek.swift */; };
@@ -88,8 +88,8 @@
 		9A0B338823D63D1B005C667A /* UIView+RemoveSubviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RemoveSubviewTests.swift"; sourceTree = "<group>"; };
 		9A1659E7243F9DDC002E1C81 /* UIBarButtonItem+BadgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+BadgeTests.swift"; sourceTree = "<group>"; };
 		9A2782DF23C4C19D007B90CE /* Date+DaysWeekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysWeekTests.swift"; sourceTree = "<group>"; };
-		9A4AE36B23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ActivityIndicator.swift"; sourceTree = "<group>"; };
-		9A4AE36D23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+ActivityIndicatorTests.swift"; sourceTree = "<group>"; };
+		9A4AE36B23F41E1D000B4D86 /* UIButton+LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+LoadingIndicator.swift"; sourceTree = "<group>"; };
+		9A4AE36D23F4203B000B4D86 /* UIButton+LoadingIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+LoadingIndicatorTests.swift"; sourceTree = "<group>"; };
 		9A6C61AD23C0DF73000D6437 /* UIView+ActivityIndicatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ActivityIndicatorTests.swift"; sourceTree = "<group>"; };
 		9A85D7B523B898F70027C678 /* Date+DayStepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DayStepTests.swift"; sourceTree = "<group>"; };
 		9A87152A23C3A2780056CB2E /* Date+DaysWeek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+DaysWeek.swift"; sourceTree = "<group>"; };
@@ -216,7 +216,7 @@
 		0B62623023D3006F00F9A668 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				9A4AE36B23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift */,
+				9A4AE36B23F41E1D000B4D86 /* UIButton+LoadingIndicator.swift */,
 				0B62623223D300AB00F9A668 /* UIButton+SetTitle.swift */,
 			);
 			path = UIButton;
@@ -225,7 +225,7 @@
 		0B62623123D3009200F9A668 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				9A4AE36D23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift */,
+				9A4AE36D23F4203B000B4D86 /* UIButton+LoadingIndicatorTests.swift */,
 				0B62623423D300B700F9A668 /* UIButton+SetTitleTests.swift */,
 			);
 			path = UIButton;
@@ -564,7 +564,7 @@
 				0B48C5AE2401873A00BD88C1 /* Collection+IsNotEmpty.swift in Sources */,
 				9AC1951A23BF6B5B009A636F /* UIView+ActivityIndicator.swift in Sources */,
 				0B62623323D300AB00F9A668 /* UIButton+SetTitle.swift in Sources */,
-				9A4AE36C23F41E1D000B4D86 /* UIButton+ActivityIndicator.swift in Sources */,
+				9A4AE36C23F41E1D000B4D86 /* UIButton+LoadingIndicator.swift in Sources */,
 				0B5ADDD1243FB7E000EEF7EC /* Collection+SafeSubscript.swift in Sources */,
 				9AED008323D42D3B006E7C9A /* UICollectionView+RegisterCell.swift in Sources */,
 				9A87152B23C3A2780056CB2E /* Date+DaysWeek.swift in Sources */,
@@ -577,7 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0B338923D63D1B005C667A /* UIView+RemoveSubviewTests.swift in Sources */,
-				9A4AE36E23F4203B000B4D86 /* UIButton+ActivityIndicatorTests.swift in Sources */,
+				9A4AE36E23F4203B000B4D86 /* UIButton+LoadingIndicatorTests.swift in Sources */,
 				0B62623523D300B700F9A668 /* UIButton+SetTitleTests.swift in Sources */,
 				9AC275E223D83DED003D70F5 /* UIAlertController+InitWithButtonsTests.swift in Sources */,
 				9A85D7B623B898F70027C678 /* Date+DayStepTests.swift in Sources */,
@@ -752,7 +752,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sqrline.HoneyKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -781,7 +781,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sqrline.HoneyKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
